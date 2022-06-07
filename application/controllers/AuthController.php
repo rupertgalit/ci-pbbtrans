@@ -22,10 +22,15 @@ class AuthController extends CI_Controller {
 			
 		}
 		else{
-			$this->load->view('login');
+			$this->load->view('landing');
 		}
 		// $this->load->view('login');
 		
+	}
+
+	public function login_page(){
+
+			$this->load->view('login');
 	}
 
 	
@@ -96,7 +101,7 @@ class AuthController extends CI_Controller {
 		// echo 'User not found';
 		$this->session->set_flashdata('error','Invalid Email or Password!.');
 		echo '<script type="text/javascript">
-		   window.location = "http://localhost/ci-jwt/"
+		   window.location = "http://ci-localhost/pbbtrans/"
 		  </script>';
 
 		
@@ -123,7 +128,7 @@ class AuthController extends CI_Controller {
 			if($userId){
 				$this->session->set_flashdata('success','User Registered Successfully.');
 			echo '<script type="text/javascript">
-           	window.location = "http://localhost/ci-jwt/"
+           	window.location = "http://localhost/ci-pbbtrans/"
       		</script>';
 			}
 			else
@@ -220,7 +225,7 @@ class AuthController extends CI_Controller {
 			if($userId){
 				$this->session->set_flashdata('success','User Registered Successfully.');
 			echo '<script type="text/javascript">
-           	window.location = "http://localhost/ci-jwt/AuthController/dash"
+           	window.location = "http://localhost/ci-pbbtrans/AuthController/dash"
       		</script>';
 			}
 			else

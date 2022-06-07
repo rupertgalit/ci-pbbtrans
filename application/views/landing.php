@@ -12,13 +12,13 @@
     <title>Grad School HTML5 Template</title>
     
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url('./assets/new_assets/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/new_assets/assets/css/fontawesome.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/new_assets/assets/css/templatemo-grad-school.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/new_assets/assets/css/owl.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/new_assets/assets/css/lightbox.css');?>">
 <!--
     
 TemplateMo 557 Grad School
@@ -51,7 +51,7 @@ https://templatemo.com/tm-557-grad-school
         <li><a href="#section4">Courses</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
         <li><a href="#section6">Contact</a></li>
-        <li><a href="http://localhost/ci-jwt" class="external">LOGIN</a></li>
+        <li><a href="http://localhost/ci-pbbtrans/login_page" class="external">LOGIN</a></li>
       </ul>
     </nav>
   </header>
@@ -59,7 +59,7 @@ https://templatemo.com/tm-557-grad-school
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/bus.mp4" type="video/mp4" />
+          <source src="./assets/new_assets/assets/images/bus.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
@@ -143,7 +143,7 @@ https://templatemo.com/tm-557-grad-school
               <article id='tabs-1'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
+                    <img src="./assets/new_assets/assets/images/choose-us-image-01.png" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Best Education</h4>
@@ -154,7 +154,7 @@ https://templatemo.com/tm-557-grad-school
               <article id='tabs-2'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt="">
+                    <img src="./assets/new_assets/assets/images/choose-us-image-02.png" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Top Level</h4>
@@ -166,7 +166,7 @@ https://templatemo.com/tm-557-grad-school
               <article id='tabs-3'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
+                    <img src="./assets/new_assets/assets/images/choose-us-image-03.png" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Quality Meeting</h4>
@@ -259,12 +259,12 @@ https://templatemo.com/tm-557-grad-school
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
+            <img src="./assets/new_assets/assets/images/courses-01.jpg" alt="Course #1">
             <div class="down-content">
               <h4>Digital Marketing</h4>
               <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
               <div class="author-image">
-                <img src="assets/images/author-01.png" alt="Author 1">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="Author 1">
               </div>
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
@@ -272,12 +272,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
+            <img src="./assets/new_assets/assets/images/courses-02.jpg" alt="Course #2">
             <div class="down-content">
               <h4>Business World</h4>
               <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
               <div class="author-image">
-                <img src="assets/images/author-02.png" alt="Author 2">
+                <img src="./assets/new_assets/assets/images/author-02.png" alt="Author 2">
               </div>
               <div class="text-button-free">
                 <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
@@ -285,12 +285,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">
+            <img src="./assets/new_assets/assets/images/courses-03.jpg" alt="Course #3">
             <div class="down-content">
               <h4>Media Technology</h4>
               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
               <div class="author-image">
-                <img src="assets/images/author-03.png" alt="Author 3">
+                <img src="./assets/new_assets/assets/images/author-03.png" alt="Author 3">
               </div>
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
@@ -298,12 +298,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
+            <img src="./assets/new_assets/assets/images/courses-04.jpg" alt="Course #4">
             <div class="down-content">
               <h4>Communications</h4>
               <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
               <div class="author-image">
-                <img src="assets/images/author-04.png" alt="Author 4">
+                <img src="./assets/new_assets/assets/images/author-04.png" alt="Author 4">
               </div>
               <div class="text-button-free">
                 <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
@@ -311,12 +311,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-05.jpg" alt="">
             <div class="down-content">
               <h4>Business Ethics</h4>
               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
               <div class="author-image">
-                <img src="assets/images/author-05.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-05.png" alt="">
               </div>
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
@@ -324,12 +324,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>Photography</h4>
               <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
               <div class="author-image">
-                <img src="assets/images/author-01.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="">
               </div>
               <div class="text-button-free">
                 <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
@@ -337,12 +337,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-02.jpg" alt="">
             <div class="down-content">
               <h4>Web Development</h4>
               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
               <div class="author-image">
-                <img src="assets/images/author-02.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-02.png" alt="">
               </div>
               <div class="text-button-free">
                 <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
@@ -350,12 +350,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-03.jpg" alt="">
             <div class="down-content">
               <h4>Learn HTML CSS</h4>
               <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
               <div class="author-image">
-                <img src="assets/images/author-03.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-03.png" alt="">
               </div>
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
@@ -363,12 +363,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-04.jpg" alt="">
             <div class="down-content">
               <h4>Social Media</h4>
               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
               <div class="author-image">
-                <img src="assets/images/author-04.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-04.png" alt="">
               </div>
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
@@ -376,12 +376,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-05.jpg" alt="">
             <div class="down-content">
               <h4>Digital Arts</h4>
               <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
               <div class="author-image">
-                <img src="assets/images/author-05.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-05.png" alt="">
               </div>
               <div class="text-button-free">
                 <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
@@ -389,12 +389,12 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>Media Streaming</h4>
               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
               <div class="author-image">
-                <img src="assets/images/author-01.png" alt="">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="">
               </div>
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
@@ -425,7 +425,7 @@ https://templatemo.com/tm-557-grad-school
               <h4>Power HTML Template</h4>
             </div>
             <figure>
-              <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png"></a>
+              <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="./assets/new_assets/assets/images/main-thumb.png"></a>
             </figure>
           </article>
         </div>
@@ -499,7 +499,8 @@ https://templatemo.com/tm-557-grad-school
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script src="assets/js/isotope.min.js"></script>
@@ -508,7 +509,20 @@ https://templatemo.com/tm-557-grad-school
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js"></script> -->
+
+  
+    <script src="<?php echo base_url('./assets/new_assets/vendor/jquery/jquery.min.js'); ?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
+
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/isotope.min.js');?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/owl-carousel.js');?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/lightbox.js');?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/tabs.js');?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/video.js');?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/slick-slider.js');?>"></script>
+    <script src="<?php echo base_url('./assets/new_assets/assets/js/custom.js');?>"></script>
+
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');

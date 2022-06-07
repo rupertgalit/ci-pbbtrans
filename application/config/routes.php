@@ -54,6 +54,8 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['login'] = 'AuthController/login';
+$route['landing'] = 'AuthController/landing';
+$route['login_page'] = 'AuthController/login_page';
 
 $route['signup'] = 'AuthController/signup';
 $route['dash'] = 'AuthController/dash';
