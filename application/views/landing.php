@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>Grad School HTML5 Template</title>
+    <title>PBBTransit</title>
     
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('./assets/new_assets/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
@@ -32,6 +32,11 @@ https://templatemo.com/tm-557-grad-school
       height: 50px;
        
     }
+    .img-about{
+      border-radius: 20px;
+     
+    }
+      
     
   </style>
   </head>
@@ -74,8 +79,12 @@ https://templatemo.com/tm-557-grad-school
           <div class="caption">
               <h6>Online Bus Booking</h6>
               <h2><em>PBB</em> Transit</h2>
-              <div class="main-button">
+              <!-- <div class="main-button">
                   <div class="scroll-to-section"><a href="#section2">Book Now</a></div>
+              </div> -->
+
+              <div class="main-button">
+                  <div ><a href="http://localhost/ci-pbbtrans/login_page">Book Now</a></div>
               </div>
           </div>
       </div>
@@ -143,7 +152,7 @@ https://templatemo.com/tm-557-grad-school
         <div class="col-md-12">
           <div id='tabs'>
             <ul>
-              <li><a href='#tabs-1'>Hussle Free</a></li>
+              <li><a href='#tabs-1'>Hassle Free</a></li>
               <li><a href='#tabs-2'>Safe Trips</a></li>
               <li><a href='#tabs-3'>Quality Buses</a></li>
             </ul>
@@ -151,18 +160,19 @@ https://templatemo.com/tm-557-grad-school
               <article id='tabs-1'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="./assets/new_assets/assets/images/choose-us-image-01.png" alt="">
+                    <img class="img-about" src="./assets/new_assets/assets/images/hassle.jpg" alt="">
                   </div>
                   <div class="col-md-6">
-                    <h4>Hussle Free</h4>
-                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us. Thank you.</p>
+                    <h4>Hassle Free</h4>
+                    <!-- <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us. Thank you.</p> -->
+                      <p>With PBBTransit, it is now easy to travel to any corner of the world. Buying a ticket for a bus had never been this easy. With just a few taps, customers can book tickets in a convenient manner in comparison to the making transportation bookings on ground or sea between local cities.</p>
                   </div>
                 </div>
               </article>
               <article id='tabs-2'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="./assets/new_assets/assets/images/choose-us-image-02.png" alt="">
+                    <img class="img-about" src="./assets/new_assets/assets/images/safetrips.jpg" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Safe Trips</h4>
@@ -174,7 +184,7 @@ https://templatemo.com/tm-557-grad-school
               <article id='tabs-3'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="./assets/new_assets/assets/images/choose-us-image-03.png" alt="">
+                    <img class="img-about" src="./assets/new_assets/assets/images/quality.jpg" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Quality Buses</h4>
@@ -267,158 +277,198 @@ https://templatemo.com/tm-557-grad-school
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item ">
-            <img src="./assets/new_assets/assets/images/courses-101.jpg" alt="Course #1">
+            <img src="./assets/new_assets/assets/images/des-01.jpg" alt="Course #1">
             <div class="down-content">
-              <h4>Digital Marketing</h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+              <h4>ILOCOS REGION</h4>
+              <p>It covers 4 provinces, namely, Ilocos Norte, Ilocos Sur, La Union, and Pangasinan. The regional center is the City of San Fernando.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-01.png" alt="Author 1">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
             <img src="./assets/new_assets/assets/images/des-02.jpg" alt="Course #2">
             <div class="down-content">
-              <h4>Business World</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
+              <h4>CAGAYAN VALLEY</h4>
+              <p>It covers 5 provinces, namely, Batanes, Cagayan, Isabela, Nueva Vizcaya, and Quirino. The regional center is the City of Tuguegarao.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-02.png" alt="Author 2">
               </div> -->
               <div class="text-button-free">
-                <a href="#">Go<i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go<i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
             <img src="./assets/new_assets/assets/images/des-03.jpg" alt="Course #3">
             <div class="down-content">
-              <h4>Media Technology</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+              <h4>CENTRAL LUZON</h4>
+              <p>It covers 7 provinces, namely, Aurora, Bataan, Bulacan, Nueva Ecija, Pampanga, Tarlac, and Zambales,The regional center is the City of San Fernando.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-03.png" alt="Author 3">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-04.jpg" alt="Course #4">
+            <img src="./assets/new_assets/assets/images/des-04.jpg" alt="Course #4">
             <div class="down-content">
-              <h4>Communications</h4>
-              <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+              <h4>CALABARZON</h4>
+              <p>It covers 5 provinces, namely, Batangas, Cavite, Laguna, Quezon, and Rizal, as well as 1 highly urbanized city. The regional center is the City of Calamba.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-04.png" alt="Author 4">
               </div> -->
               <div class="text-button-free">
-                <a href="#">GO <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">GO <i class="fa fa-angle-double-right"></i></a>
               </div>
-            </div>
+            </div>  
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-05.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-05.jpg" alt="">
             <div class="down-content">
-              <h4>Business Ethics</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+              <h4>BICOL</h4>
+              <p>It covers 6 provinces, namely, Albay, Camarines Norte, Camarines Sur, Catanduanes, Masbate, and Sorsogon. The regional center is the City of Legazpi.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-05.png" alt="">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">GO <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">GO <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-01.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-06.jpg" alt="">
             <div class="down-content">
-              <h4>Photography</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
+              <h4>WESTERN VISAYAS</h4>
+              <p>It covers 6 provinces, namely, Aklan, Antique, Capiz, Guimaras, Iloilo, and Negros Occidental. The regional center is the City of Iloilo.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-01.png" alt="">
               </div> -->
               <div class="text-button-free">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
+          
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-02.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-07.jpg" alt="">
             <div class="down-content">
-              <h4>Web Development</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <!-- <div class="author-image">
-                <img src="./assets/new_assets/assets/images/author-02.png" alt="">
-              </div> -->
-              <div class="text-button-free">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-03.jpg" alt="">
-            <div class="down-content">
-              <h4>Learn HTML CSS</h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+              <h4>CENTRAL VISAYAS</h4>
+              <p>It covers 4 provinces, namely, Bohol, Cebu, Negros Oriental, and Siquijor, as well as 3 highly urbanized cities. The regional center is the City of Cebu.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-03.png" alt="">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-04.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-08.jpg" alt="">
             <div class="down-content">
-              <h4>Social Media</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+              <h4>EASTERN VISAYAS</h4>
+              <p>It covers 6 provinces, namely, Biliran, Eastern Samar, Leyte, Northern Samar, Samar, and Southern Leyte. The regional center is the City of Tacloban.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-04.png" alt="">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">Go<i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go<i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-05.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-09.jpg" alt="">
             <div class="down-content">
-              <h4>Digital Arts</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
+              <h4>ZAMBOANGA PENINSULA</h4>
+              <p>It covers 3 provinces, namely, Zamboanga del Norte, Zamboanga del Sur, and Zamboanga Sibugay,and Isabela. The regional center is the City of Pagadian.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-05.png" alt="">
               </div> -->
               <div class="text-button-free">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-01.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-10.jpg" alt="">
             <div class="down-content">
-              <h4>Media Streaming</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+              <h4>NORTHERN MINDANAO</h4>
+              <p>It covers 5 provinces, namely, Bukidnon, Camiguin, Lanao del Norte, Misamis Occidental, and Misamis Oriental. The regional center is the City of Cagayan.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-01.png" alt="">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="./assets/new_assets/assets/images/courses-01.jpg" alt="">
+            <img src="./assets/new_assets/assets/images/des-11.jpg" alt="">
             <div class="down-content">
-              <h4>Media Streaming</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+              <h4>DAVAO REGION</h4>
+              <p>It covers 5 provinces, namely, Bukidnon, Camiguin, as well as 2 highly urbanized cities. The regional center is the City of Cagayan de Oro.</p>
               <!-- <div class="author-image">
                 <img src="./assets/new_assets/assets/images/author-01.png" alt="">
               </div> -->
               <div class="text-button-pay">
-                <a href="#">Go <i class="fa fa-angle-double-right"></i></a>
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/new_assets/assets/images/des-12.jpg" alt="">
+            <div class="down-content">
+              <h4>SOCCSKSARGEN</h4>
+              <p>It covers 4 provinces, namely, Cotabato, Sarangani, South Cotabato, and Sultan Kudarat, General Santos. The regional center is the City of Koronadal.</p>
+              <!-- <div class="author-image">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="">
+              </div> -->
+              <div class="text-button-pay">
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/new_assets/assets/images/des-13.jpg" alt="">
+            <div class="down-content">
+              <h4>CARAGA</h4>
+              <p>It covers 5 provinces, namely, Agusan del Norte, Agusan del Sur, Dinagat Islands, Surigao del Norte, and Surigao del Sur. The regional center is the City of Butuan.</p>
+              <!-- <div class="author-image">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="">
+              </div> -->
+              <div class="text-button-pay">
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/new_assets/assets/images/des-14.jpg" alt="">
+            <div class="down-content">
+              <h4>CAR</h4>
+              <p>It covers 6 provinces, namely, Abra, Apayao, Benguet, Ifugao, Kalinga, and Mountain Province. The regional center is the City of Baguio.</p>
+              <!-- <div class="author-image">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="">
+              </div> -->
+              <div class="text-button-pay">
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/new_assets/assets/images/des-15.jpg" alt="">
+            <div class="down-content">
+              <h4>MIMAROPA</h4>
+              <p> It covers 5 provinces, namely, Marinduque, Occidental Mindoro, Oriental Mindoro, Palawan, and Romblon. The regional center is the City of Calapan.</p>
+              <!-- <div class="author-image">
+                <img src="./assets/new_assets/assets/images/author-01.png" alt="">
+              </div> -->
+              <div class="text-button-pay">
+                <a href="http://localhost/ci-pbbtrans/login_page">Go <i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -434,7 +484,7 @@ https://templatemo.com/tm-557-grad-school
         <div class="col-md-6 align-self-center">
           <div class="left-content">
             <span>our presentation is for you</span>
-            <h4>Watch the video to learn more <em>about Grad School</em></h4>
+            <h4>Watch the video to learn more <em>about PBB Transit</em></h4>
             <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
             <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
             <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>

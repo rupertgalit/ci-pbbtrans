@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CodePen - Log In / Sign Up - pure css - #12</title>
+    <title>Log In / Sign Up </title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
     <link rel="stylesheet" href="<?php echo base_url('./assets/css/new-login-style.css'); ?>">
@@ -84,8 +84,9 @@
 
                                                 <input class="btn mt-4" type="submit" value="Sign In">
                                                 <!-- <a href="#" class="btn mt-4">submit</a> -->
-                                                <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your
-                                                        password?</a></p>
+                                                <!-- <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your
+                                                        password?</a></p> -->
+                                                <p class="mb-0 mt-4 text-center"><a href="http://localhost/ci-pbbtrans/" class="link">Go Back Home</a></p>       
                                                 <?php if (isset($_SESSION['error'])): ?>
                                                 <div class="alert alert-danger text-center" style="margin-top: 10px;">
                                                     <?=$this->session->flashdata('error')?></div>
@@ -93,6 +94,8 @@
                                             </div>
                                         </div>
                                     </form>
+
+                                    Website Builder Website 54.169.247.225
                                 </div>
                                 <div class="card-back">
 									<form method="post" action="<?php echo base_url('AuthController/signup'); ?>">
